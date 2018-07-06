@@ -1647,11 +1647,11 @@ TS-003</description>
 <attribute name="VALUE" x="25.273" y="6.223" size="1.27" layer="27" ratio="10"/>
 <attribute name="NAME" x="25.908" y="6.096" size="1.016" layer="25" font="vector" ratio="11"/>
 </element>
-<element name="D1" library="diode" package="MINIMELF" value="" x="26.67" y="16.51" smashed="yes">
+<element name="D1" library="diode" package="MINIMELF" value="LL4148" x="26.67" y="16.51" smashed="yes">
 <attribute name="NAME" x="22.479" y="16.383" size="1.016" layer="25" font="vector" ratio="11"/>
 <attribute name="VALUE" x="25.019" y="14.097" size="1.27" layer="27"/>
 </element>
-<element name="D2" library="diode" package="MINIMELF" value="" x="26.67" y="13.97" smashed="yes" rot="R180">
+<element name="D2" library="diode" package="MINIMELF" value="LL4148" x="26.67" y="13.97" smashed="yes" rot="R180">
 <attribute name="NAME" x="22.225" y="13.97" size="1.016" layer="25" font="vector" ratio="11"/>
 <attribute name="VALUE" x="28.321" y="16.383" size="1.27" layer="27" rot="R180"/>
 </element>
@@ -1691,7 +1691,7 @@ TS-003</description>
 <attribute name="NAME" x="35.6362" y="10.0838" size="1.016" layer="25" font="vector" ratio="11" rot="R90"/>
 <attribute name="VALUE" x="37.465" y="12.7" size="1.27" layer="27" rot="R90"/>
 </element>
-<element name="D3" library="diode" package="MINIMELF" value="" x="31.75" y="15.24" smashed="yes" rot="R90">
+<element name="D3" library="diode" package="MINIMELF" value="LL4148" x="31.75" y="15.24" smashed="yes" rot="R90">
 <attribute name="NAME" x="29.718" y="16.256" size="1.016" layer="25" font="vector" ratio="11" rot="R270"/>
 <attribute name="VALUE" x="34.163" y="13.589" size="1.27" layer="27" rot="R90"/>
 </element>

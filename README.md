@@ -18,14 +18,32 @@ You can find partlist in bom.txt file.
 
 ## Status
   Tested & works well :)
+  Files are prepared for the production. Gerber files are generated. The order was received from the jlcpcb:
+  
+  ![Photo of the PCB](https://raw.githubusercontent.com/virtmedia/NE555_pwm_SMD_2Sided/master/pcb.jpg)
+  
 
 ## Schematic:
 
-  ![alt tag](https://raw.githubusercontent.com/virtmedia/NE555_pwm_SMD/master/schematic.png)
+  ![schematic image](https://raw.githubusercontent.com/virtmedia/NE555_pwm_SMD_2Sided/master/schematic.png)
 
 ## PCB layout:
 
-  ![alt tag](https://raw.githubusercontent.com/virtmedia/NE555_pwm_SMD_2Sided/master/mount.png)
+  ![PCB layout image](https://raw.githubusercontent.com/virtmedia/NE555_pwm_SMD_2Sided/master/mount.png)
+  
+## BOM
+  
+* C1   100n 0603 case
+* C2   100n-10u 0805-1206 case
+* C3   10n 0603 case 
+* D1   LL4148 MINIMELF
+* D2   LL4148 MINIMELF                    
+* D3   LL4148 MINIMELF              
+* IC1  NE555D SO-8
+* PR1  10K linear potentiometer
+* Q1   Generic MOSFET-N in TO252 (DPAK) case                                 
+* R1   1K 0603 case
+* R2   47R 0603 case
   
 ## Future
 The project looks finished, i have no plan to change it.

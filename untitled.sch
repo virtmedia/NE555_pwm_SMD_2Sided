@@ -8330,8 +8330,8 @@ TS-003</description>
 </classes>
 <parts>
 <part name="IC1" library="adafruit" deviceset="*555" device="D" technology="NE"/>
-<part name="D1" library="diode" deviceset="DIODE-" device="MINIMELF"/>
-<part name="D2" library="diode" deviceset="DIODE-" device="MINIMELF"/>
+<part name="D1" library="diode" deviceset="DIODE-" device="MINIMELF" value="LL4148"/>
+<part name="D2" library="diode" deviceset="DIODE-" device="MINIMELF" value="LL4148"/>
 <part name="R1" library="rcl" deviceset="R-EU_" device="R0603" value="1K"/>
 <part name="R2" library="rcl" deviceset="R-EU_" device="R0603" value="47R"/>
 <part name="C1" library="rcl" deviceset="C-EU" device="C0603" value="100n"/>
@@ -8345,7 +8345,7 @@ TS-003</description>
 <part name="P+1" library="supply1" deviceset="VCC" device=""/>
 <part name="P+2" library="supply1" deviceset="VCC" device=""/>
 <part name="GND2" library="supply1" deviceset="GND" device=""/>
-<part name="D3" library="diode" deviceset="DIODE-" device="MINIMELF"/>
+<part name="D3" library="diode" deviceset="DIODE-" device="MINIMELF" value="LL4148"/>
 </parts>
 <sheets>
 <sheet>
@@ -8358,9 +8358,12 @@ TS-003</description>
 </instance>
 <instance part="D1" gate="G$1" x="17.78" y="55.88" smashed="yes">
 <attribute name="NAME" x="11.684" y="54.8386" size="1.778" layer="95"/>
-<attribute name="VALUE" x="20.32" y="53.5686" size="1.778" layer="96"/>
+<attribute name="VALUE" x="11.43" y="52.2986" size="1.778" layer="96"/>
 </instance>
-<instance part="D2" gate="G$1" x="17.78" y="66.04" rot="R180"/>
+<instance part="D2" gate="G$1" x="17.78" y="66.04" smashed="yes" rot="R180">
+<attribute name="NAME" x="14.224" y="67.0814" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="5.08" y="62.9666" size="1.778" layer="96"/>
+</instance>
 <instance part="R1" gate="G$1" x="63.5" y="48.26" smashed="yes" rot="R90">
 <attribute name="NAME" x="65.024" y="49.2506" size="1.778" layer="95"/>
 <attribute name="VALUE" x="65.024" y="46.99" size="1.778" layer="96"/>
@@ -8392,8 +8395,8 @@ TS-003</description>
 </instance>
 <instance part="GND2" gate="1" x="33.02" y="33.02"/>
 <instance part="D3" gate="G$1" x="78.74" y="68.58" smashed="yes" rot="R90">
-<attribute name="NAME" x="77.47" y="72.1106" size="1.778" layer="95"/>
-<attribute name="VALUE" x="81.0514" y="71.12" size="1.778" layer="96" rot="R90"/>
+<attribute name="NAME" x="72.898" y="68.5546" size="1.778" layer="95"/>
+<attribute name="VALUE" x="67.056" y="66.0146" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
