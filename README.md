@@ -1,7 +1,7 @@
 # NE555_pwm_SMD_2Sided
 Smallest version of NE555 PWM generator. Designed to make at home.
 
-Here is 2-sided version of [this](https://github.com/virtmedia/NE555_pwm_SMD) project.
+Here is two-side version of [this](https://github.com/virtmedia/NE555_pwm_SMD) project.
 
 ## Description
 Simple, small and cheap PWM regulator on NE555.
